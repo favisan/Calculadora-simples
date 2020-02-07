@@ -1,0 +1,30 @@
+.botao{
+    width: 5vw;
+    height: 5vh;
+    position: relative;
+    border-style: groove;
+    background-color: grey;
+    text-align: center;
+}
+.container{
+    align-self: center;
+    display: flex;
+}
+.calculadora{
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.console{
+    width: 100%;
+    display: flex;
+}
+.botao_igual{
+    width: 20vw;
+    height: 5vh;
+    position: relative;
+    border-style: groove;
+    background-color: grey;
+    text-align: center;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="CSS/style.css" rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div>
+        <div class="calculadora">
+            <div class="container"> <input type="text" id="visor" size="34">     </div> 
+            <div class="container">
+                <div > <input type="submit" value="1" class="botao"  onclick="preencher(1)"> </div>
+                <div > <input type="submit" value="2" class="botao"  onclick="preencher(2)"></div>
+                <div > <input type="submit" value="3" class="botao"  onclick="preencher(3)"> </div>
+                <div> <input type="submit" value="/" class="botao" onclick="preencher('/')"> </div>
+            </div>
+            <div class="container">
+                <div > <input type="submit" value="4" class="botao" onclick="preencher(4)"> </div>
+                <div> <input type="submit" value="5" class="botao"  onclick="preencher(5)"></div>
+                <div> <input type="submit" value="6" class="botao"  onclick="preencher(6)"> </div>
+                <div> <input type="submit" value="*" class="botao" onclick="preencher('*')"> </div>
+            </div>
+            <div class="container">
+                <div> <input type="submit" value="7" class="botao"  onclick="preencher(7)"> </div>
+                <div> <input type="submit" value="8" class="botao"  onclick="preencher(8)"></div>
+                <div> <input type="submit" value="9" class="botao"  onclick="preencher(9)"> </div>
+                <div> <input type="submit" value="-" class="botao" onclick="preencher('-')"> </div>
+            </div>
+            <div class="container">
+                <div> <input type="submit" value="0" class="botao" onclick="preencher(0)"></div>
+                <div> <input type="submit" value="," class="botao " onclick="preencher('.')"></div>
+                <div> <input type="submit" value="+" class="botao" onclick="preencher('+')"> </div>
+                <div> <input type="submit" value="Del" class="botao" onclick="limpar()"> </div>
+            </div>
+            <div class="container">
+                <input type="submit" value="=" class="botao_igual" onclick="calcular()">
+            </div>
+        </div>
+           
+        </div>
+    </div>
+
+
+    <script src="javascript/code.js"></script>
+</body>
+
+</html>
